@@ -1,0 +1,13 @@
+{
+  "name": "web-video-nasa-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "juxtacrop: a scroll-driven NASA Space Apps concept presentation.",
+  "scripts": {
+    "dev": "node server.mjs --port 4173",
+    "start": "node server.mjs --port 4173",
+    "test": "node tests/timeline.test.mjs && node tests/field-map.test.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

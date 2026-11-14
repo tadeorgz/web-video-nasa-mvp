@@ -1,0 +1,69 @@
+{
+  "title": "Iowa illustrative field basemap",
+  "source": "USGS / USDA NAIP, The National Map",
+  "sourceUrl": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer",
+  "retrieved": "2026-11-14",
+  "centerLonLat": [
+    -93.5,
+    42.0
+  ],
+  "extent3857": {
+    "xmin": -10409572.389171079,
+    "ymin": 5160199.444049783,
+    "xmax": -10407172.389171079,
+    "ymax": 5161759.444049783,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    }
+  },
+  "width": 2000,
+  "height": 1300,
+  "query": [
+    {
+      "attributes": {
+        "OBJECTID": 43500,
+        "Name": "m_4109304_ne_15_030_20230902",
+        "State": "IA",
+        "Year": 2023,
+        "acquisition_date": 1693612800000,
+        "agency": "USDA",
+        "resolution_value": 0.3
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 43505,
+        "Name": "m_4109305_nw_15_030_20230830",
+        "State": "IA",
+        "Year": 2023,
+        "acquisition_date": 1693353600000,
+        "agency": "USDA",
+        "resolution_value": 0.3
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 45125,
+        "Name": "m_4209360_se_15_030_20230902",
+        "State": "IA",
+        "Year": 2023,
+        "acquisition_date": 1693612800000,
+        "agency": "USDA",
+        "resolution_value": 0.3
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 45130,
+        "Name": "m_4209361_sw_15_030_20230830",
+        "State": "IA",
+        "Year": 2023,
+        "acquisition_date": 1693353600000,
+        "agency": "USDA",
+        "resolution_value": 0.3
+      }
+    }
+  ],
+  "note": "Real aerial image. All displayed field boundaries, crops, campaigns and scenario overlays are illustrative; they do not describe the actual farm."
+}
